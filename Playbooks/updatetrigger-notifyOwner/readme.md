@@ -7,3 +7,5 @@ The user is given a prompt as seen below.
 
 The user can enter a email address of another user and the incident will be assigned to them (with another invocation of this playbook.
 
+Should the user reject the assignment, a new Sentinel Incident will be created.
+
