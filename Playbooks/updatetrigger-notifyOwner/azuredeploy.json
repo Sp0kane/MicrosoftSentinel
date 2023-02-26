@@ -173,7 +173,7 @@
                                     "inputs":  {
                                         "body":  {
                                             "body":  {
-                                                "messageBody":  "You have been assigned a Microsoft Sentinel Incident.\n@{triggerBody()?['object']?['properties']?['incidentNumber']}: @{triggerBody()?['object']?['properties']?['title']}\n\nClick here to view incident:\n@{triggerBody()?['object']?['properties']?['incidentUrl']}\n\nIf you believe this should be with someone else, please enter their email in the comment field, then click \"Assign incident to email in comment\".",
+                                                "messageBody":  "You have been assigned to Sentinel Incident.\n@{triggerBody()?['object']?['properties']?['incidentNumber']}: @{triggerBody()?['object']?['properties']?['title']}\n\nClick here to view incident:\n@{triggerBody()?['object']?['properties']?['incidentUrl']}\n\nIf you believe this should be with someone else, please click \"Assign incident to email in comment\" and enter their email.",
                                                 "options":  [
                                                     "Acknowlege",
                                                     "Reject",
