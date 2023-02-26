@@ -16,3 +16,6 @@ Should the user reject the assignment, a new Sentinel Incident will be created.
 You shold exempt core SOC personnel from these notification by listing them in the initial boolean.
 
 Hope it helps.
+
+![image](https://user-images.githubusercontent.com/71527532/221388116-3dfff954-fe6a-47ed-af08-13d7d4486c7b.png)(https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Sp0kane/MicrosoftSentinel/main/Playbooks/updatetrigger-notifyOwner/azuredeploy.json)
+
