@@ -13,7 +13,7 @@ Should the user reject the assignment, a new Sentinel Incident will be created.
 
 ![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/71527532/221387995-5dd3a2c5-a152-4f92-be49-4ca7b65bceb7.png)
 
-You shold exempt core SOC personnel from these notification by listing them in the initial boolean.
+You shold exempt core SOC personnel from these notifications by listing them in the initial boolean.
 
 Hope it helps.
 
