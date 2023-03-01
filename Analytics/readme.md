@@ -1,5 +1,5 @@
 This Sentinel Analytics rule will detect when a previously ingested source of logs disappears.
-It evaluates if no new logs has been ingested to a log analyics table in the last 6hrs.
+It evaluates if no new logs have been ingested to a log analyics table in the last 6hrs.
 This is dynamic, meaning it will adapt when you add new log sources.
 
 Be aware: This rule requires configuration as alerts show in your environment. 
