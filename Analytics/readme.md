@@ -6,4 +6,6 @@ Be aware: This rule requires configuration as alerts show in your environment.
 If you do not expect to see data written to a table for 6 hours or more, be sure to exclude the table in the rule logic.
 A few common sources to exclude are included.
 
+You will need to set the rule evaluation time so it makes sense.
+
 Feel free to use this, but don't credit me.
