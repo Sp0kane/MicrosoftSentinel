@@ -1,0 +1,10 @@
+// The query_now parameter represents the time (in UTC) at which the scheduled analytics rule ran to produce this alert.
+CommonSecurityLog
+| extend DataType = DeviceVendor
+| union
+    Usage
+| summarize max(TimeGenerated) by DataType
+| where max_TimeGenerated < ago(6h)
+| where max_TimeGenerated > ago(180d)
+//Exclude the log sources we do not expect to continuously ingest
+| where DataType !in ("Watchlist", "ADSecurityAssessmentRecommendation", "HuntingBookmark", "Anomalies", "UpdateRunProgress", "SecurityDetection", WindowsServerAssessmentRecommendation", "SecurityBaselineSummary", "SecurityBaseline", "IntuneDeviceComplianceOrg", "IntuneAuditLogs", "IntuneOperationalLogs", "PowerBIActivity", "AADRiskyUsers","AADUserRiskEvents")
